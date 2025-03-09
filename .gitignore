@@ -1,0 +1,68 @@
+# Arquivos do Visual Studio
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios de build
+bin/
+obj/
+out/
+TestResults/
+
+# Dependências
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+packages.lock.json
+
+# Configurações do ambiente
+appsettings*.json
+secrets.json
+
+# Logs e temporários
+logs/
+*.log
+.env
+.env.*.local
+*.swp
+*.swo
+
+# Arquivos gerados pelo NuGet
+.nuget/
+*.snupkg
+
+# Configuração do Rider/JetBrains
+.idea/
+*.dotCover
+**/coverage*
+
+# Configuração do ReSharper
+_ReSharper*/
+*.DotSettings.user
+*.sln.DotSettings
+
+# Azure Functions
+local.settings.json
+
+# Docker
+.dockerignore
+**/[Dd]ockerfile
+
+# Outras configurações do sistema
+Thumbs.db
+desktop.ini
+/Vilas.Utils.Text.Tests/**
+/Vilas.Utils.Text.Tests/**
+/Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.assets.cache
+/Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.csproj.AssemblyReference.cache
+/Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Vilas.Utils/obj/Debug/net8.0/Vilas.Utils.Text.AssemblyInfo.cs
+/Vilas.Utils/obj/Debug/net8.0/Vilas.Utils.Text.AssemblyInfoInputs.cache
+/Vilas.Utils/obj/Debug/net8.0/Vilas.Utils.Text.assets.cache
+/Vilas.Utils/obj/Debug/net8.0/Vilas.Utils.Text.GeneratedMSBuildEditorConfig.editorconfig
+/Vilas.Utils/obj/project.assets.json
+/Vilas.Utils/obj/project.nuget.cache
+/Vilas.Utils/obj/Vilas.Utils.Text.csproj.nuget.dgspec.json

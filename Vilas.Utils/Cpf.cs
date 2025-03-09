@@ -1,4 +1,4 @@
-﻿namespace Vilas.Utils
+﻿namespace Vilas.Utils.Text
 {
     public static class Cpf
     {

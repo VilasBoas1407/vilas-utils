@@ -4,6 +4,9 @@
     {
         public static bool Validate(string cpf)
         {
+            if (string.IsNullOrEmpty(cpf))
+                return false;
+
             cpf = new string(cpf.Where(char.IsDigit).ToArray());
 
             if (cpf.Length != 11)

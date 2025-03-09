@@ -11,7 +11,7 @@ namespace Vilas.Utils.Text.Tests
         public void When_CpfIsValid_ShouldReturnTrue(string cpf, bool valid)
         {
             //Act
-            var result = CpfUtils.Validate(cpf);
+            var result = Cpf.Validate(cpf);
 
             //Assert
             Assert.Equal(valid, result);

@@ -1,6 +1,6 @@
 ﻿namespace Vilas.Utils
 {
-    public static class CpfUtils
+    public static class Cpf
     {
         public static bool Validate(string cpf)
         {

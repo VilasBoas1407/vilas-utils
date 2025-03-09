@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YnOwq9RDL7g=",
+  "dgSpecHash": "vVHgGwOl4dA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

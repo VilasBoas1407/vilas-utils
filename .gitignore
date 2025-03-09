@@ -66,4 +66,9 @@ desktop.ini
 /Vilas.Utils/obj/project.assets.json
 /Vilas.Utils/obj/project.nuget.cache
 /Vilas.Utils/obj/Vilas.Utils.Text.csproj.nuget.dgspec.json
-/.vs/Vilas.Utils/FileContentIndex
+/.vs/Vilas.Utils/FileContentIndex/**
+/Vilas.Utils.Text.Tests/obj/**
+/.vs/Vilas.Utils/v17/**
+/.vs/Vilas.Utils/v17/.suo
+/.vs/Vilas.Utils/v17/DocumentLayout.json
+/.vs/Vilas.Utils/DesignTimeBuild/.dtbcache.v2

@@ -8,6 +8,7 @@ namespace Vilas.Utils.Text.Tests
         [InlineData("teste",false)]
         [InlineData("499.758.756-70",true)]
         [InlineData("53613665603", true)]
+        [InlineData("53613665602", true)]
         public void When_CpfIsValid_ShouldReturnTrue(string cpf, bool valid)
         {
             //Act

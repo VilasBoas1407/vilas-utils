@@ -1708,6 +1708,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Vilas.Utils.Text/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Vilas.Utils.Text.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vilas.Utils.Text.dll": {}
+        }
       }
     }
   },
@@ -5497,11 +5507,17 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Vilas.Utils.Text/1.0.0": {
+      "type": "project",
+      "path": "../Vilas.Utils/Vilas.Utils.Text.csproj",
+      "msbuildProject": "../Vilas.Utils/Vilas.Utils.Text.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "Vilas.Utils.Text >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -5513,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
       "projectName": "Vilas.Utils.Text.Tests",
-      "projectPath": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
+      "projectPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5534,7 +5550,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

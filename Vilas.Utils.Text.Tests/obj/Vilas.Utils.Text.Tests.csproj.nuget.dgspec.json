@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj": {}
+    "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj": {
+    "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
         "projectName": "Vilas.Utils.Text.Tests",
-        "projectPath": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
+        "projectPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\Vilas.Utils.Text.Tests.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Projetos\\Vilas.Utils\\Vilas.Utils.Text.Tests\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils.Text.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,7 +28,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj": {
+                "projectPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +67,67 @@
               "version": "[2.5.3, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj",
+        "projectName": "Vilas.Utils.Text",
+        "projectPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\Vilas.Utils.Text.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\Projetos\\vilas-utils\\Vilas.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",

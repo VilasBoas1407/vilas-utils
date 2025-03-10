@@ -1,10 +1,10 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Vilas.Utils.Text
+namespace Vilas.Utils.Text.Validators
 {
-    public  static class Email
+    public static class EmailValidator
     {
-        public static bool Validate(string email)
+        public static bool IsValid(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
                 return false;

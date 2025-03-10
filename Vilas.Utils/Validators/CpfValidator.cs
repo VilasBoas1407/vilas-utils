@@ -1,8 +1,8 @@
-﻿namespace Vilas.Utils.Text
+﻿namespace Vilas.Utils.Text.Validators
 {
-    public static class Cpf
+    public static class CpfValidator
     {
-        public static bool Validate(string cpf)
+        public static bool IsValid(string cpf)
         {
             if (string.IsNullOrEmpty(cpf))
                 return false;

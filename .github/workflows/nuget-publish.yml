@@ -22,6 +22,9 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
+      - name: Construir o projeto
+        run: dotnet build --configuration Release
+
       - name: Package project
         run: dotnet pack ./src/Vilas.Utils/Vilas.Utils.Text.csproj --configuration Release --output ./packages
 

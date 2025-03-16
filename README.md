@@ -2,6 +2,13 @@
 
 `Vilas Utils` is a .NET utility library that provides a collection of methods for validating and processing text data. This includes validators for CPF numbers, emails, strong passwords, and a method for securely encrypting passwords.
 
+## Installation
+
+You can install the `Vilas.Utils.Text` package via NuGet:
+
+```bash
+Install-Package Vilas.Utils.Text
+
 ## Features
 
 # Text
@@ -13,9 +20,3 @@
 # Data 
 - **SQL Crud**: Insert, Update,Select, Delete methods 
 
-## Installation
-
-You can install the `VilasUtils` package via NuGet:
-
-```bash
-Install-Package VilasUtils

@@ -8,7 +8,7 @@ You can install the `Vilas.Utils.Text` package via NuGet:
 
 ```bash
 Install-Package Vilas.Utils.Text
-
+```
 ## Features
 
 # Text

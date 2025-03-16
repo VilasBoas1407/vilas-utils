@@ -1,6 +1,6 @@
 ﻿using Vilas.Utils.Domain;
 
-namespace Vilas.Utils.Data
+namespace Vilas.Utils.Data.Interfaces
 {
     public interface IRepository<T> where T : Entity
     {

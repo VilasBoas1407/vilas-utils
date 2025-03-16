@@ -1,4 +1,4 @@
-﻿namespace Vilas.Utils.Data
+﻿namespace Vilas.Utils.Data.Repositories
 {
     public class Repository
     {

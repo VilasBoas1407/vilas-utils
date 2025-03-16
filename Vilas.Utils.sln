@@ -16,9 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilas.Utils.Domain", "Vilas.Utils.Domain\Vilas.Utils.Domain.csproj", "{C118BB19-19F7-4B16-A18C-8C57B4B8C097}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilas.Utils.Data", "Vilas.Utils.Data\Vilas.Utils.Data.csproj", "{215CEF93-D626-425C-A393-B5A549A487C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilas.Utils.Data", "Vilas.Utils.Data\Vilas.Utils.Data.csproj", "{215CEF93-D626-425C-A393-B5A549A487C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,10 +32,6 @@ Global
 		{C261CE36-C34D-4600-82C4-CAA8C9B6173B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C261CE36-C34D-4600-82C4-CAA8C9B6173B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C261CE36-C34D-4600-82C4-CAA8C9B6173B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C118BB19-19F7-4B16-A18C-8C57B4B8C097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C118BB19-19F7-4B16-A18C-8C57B4B8C097}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C118BB19-19F7-4B16-A18C-8C57B4B8C097}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C118BB19-19F7-4B16-A18C-8C57B4B8C097}.Release|Any CPU.Build.0 = Release|Any CPU
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -49,7 +43,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C8166ED3-828C-4C52-9750-E1AD0078E4AF} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
 		{C261CE36-C34D-4600-82C4-CAA8C9B6173B} = {41FAA787-D85E-40A8-90C5-1C52F86D03EA}
-		{C118BB19-19F7-4B16-A18C-8C57B4B8C097} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
 		{215CEF93-D626-425C-A393-B5A549A487C6} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

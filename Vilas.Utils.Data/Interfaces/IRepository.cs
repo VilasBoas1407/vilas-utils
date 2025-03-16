@@ -1,4 +1,4 @@
-﻿using Vilas.Utils.Domain;
+﻿using Vilas.Utils.Data.Domain;
 
 namespace Vilas.Utils.Data.Interfaces
 {

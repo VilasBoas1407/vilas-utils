@@ -22,11 +22,11 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
 
-      - name: Construir o projeto
+      - name: Build project
         run: dotnet build --configuration Release
 
       - name: Package project
-        run: dotnet pack ./src/Vilas.Utils/Vilas.Utils.Text.csproj --configuration Release --output ./packages
+        run: dotnet pack ./Vilas.Utils/Vilas.Utils.Text.csproj --configuration Release --output ./packages
 
       - name: Publish NuGet
         run: dotnet nuget push ./packages/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate

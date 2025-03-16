@@ -54,8 +54,6 @@ local.settings.json
 # Outras configurações do sistema
 Thumbs.db
 desktop.ini
-/Vilas.Utils.Text.Tests/**
-/Vilas.Utils.Text.Tests/**
 /Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.assets.cache
 /Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.csproj.AssemblyReference.cache
 /Vilas.Utils.Text.Tests/obj/Debug/net8.0/Vilas.Utils.Text.Tests.GeneratedMSBuildEditorConfig.editorconfig

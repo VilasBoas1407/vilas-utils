@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<PackageId>Vilas.Utis.Text</PackageId>
+		<PackageId>Vilas.Utils.Text</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Lucas Vilas Boas Lage</Authors>
 		<Description>Package with text utils method.</Description>

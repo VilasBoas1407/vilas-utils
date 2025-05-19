@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-namespace Vilas.Messages.Kafka;
+namespace Vilas.Utils.Messages.Kafka;
 
 public class KafkaConfig
 {

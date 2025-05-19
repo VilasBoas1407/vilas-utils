@@ -1,4 +1,4 @@
-﻿namespace Vilas.Messages.Kafka.Interfaces;
+﻿namespace Vilas.Utils.Messages.Kafka.Interfaces;
 
 public interface IKafkaConsumer
 {

@@ -1,7 +1,7 @@
 ﻿using Confluent.Kafka;
-using Vilas.Messages.Kafka.Interfaces;
+using Vilas.Utils.Messages.Kafka.Interfaces;
 
-namespace Vilas.Messages.Kafka;
+namespace Vilas.Utils.Messages.Kafka;
 
 public class KafkaProducer : IKafkaProducer
 {

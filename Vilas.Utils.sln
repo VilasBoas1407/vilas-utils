@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vilas.Utils.Data", "Vilas.Utils.Data\Vilas.Utils.Data.csproj", "{215CEF93-D626-425C-A393-B5A549A487C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vilas.Utils.Messages.Kafka", "Vilas.Messages.Kafka\Vilas.Utils.Messages.Kafka.csproj", "{294F900F-919D-48E9-9517-4ACEE414B132}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{215CEF93-D626-425C-A393-B5A549A487C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294F900F-919D-48E9-9517-4ACEE414B132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294F900F-919D-48E9-9517-4ACEE414B132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294F900F-919D-48E9-9517-4ACEE414B132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294F900F-919D-48E9-9517-4ACEE414B132}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{C8166ED3-828C-4C52-9750-E1AD0078E4AF} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
 		{C261CE36-C34D-4600-82C4-CAA8C9B6173B} = {41FAA787-D85E-40A8-90C5-1C52F86D03EA}
 		{215CEF93-D626-425C-A393-B5A549A487C6} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
+		{294F900F-919D-48E9-9517-4ACEE414B132} = {E42E9083-C17E-41D5-AA3C-5EC01744F56A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40343E9C-ED10-4A43-9D02-5A68204BCD18}

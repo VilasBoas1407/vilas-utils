@@ -44,10 +44,3 @@ The `Result<T>` class is a generic utility for handling operation results, inclu
 - **`AddError(string error)`**: Adds an error message to the list of errors.  
 - **`FromStatusCode(int statusCode, List<string> errors)`**: Sets the status code and error messages.  
   
-
-## Installation
-
-You can install the `VilasUtils` package via NuGet:
-
-```bash
-Install-Package VilasUtils

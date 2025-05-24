@@ -1,4 +1,15 @@
-## Features  
+# Vilas Utils
+
+`Vilas Utils` is a .NET utility library that provides a collection of methods for validating and processing text data. This includes validators for CPF numbers, emails, strong passwords, and a method for securely encrypting passwords.
+
+## Installation
+
+You can install the `Vilas.Utils.Text` package via NuGet:
+
+```bash
+Install-Package Vilas.Utils.Text
+```
+## Features
 
 ### Text Utilities  
 - **CPF Validator**: Validates CPF numbers based on the Brazilian CPF format.  
@@ -34,8 +45,9 @@ The `Result<T>` class is a generic utility for handling operation results, inclu
 - **`FromStatusCode(int statusCode, List<string> errors)`**: Sets the status code and error messages.  
   
 
-## Installation  
+## Installation
 
-Install the `VilasUtils` package via NuGet:
+You can install the `VilasUtils` package via NuGet:
+
 ```bash
 Install-Package VilasUtils
